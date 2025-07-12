@@ -1,0 +1,54 @@
+
+/* Default dark theme */
+:root {
+  --heading:  #eab308; /* lightYellow */
+  --background1: #020617; /* slate-950 */
+  --background2: #0f172a; /* slate-900 */
+  --para1: #6b7280; /* dark gray */
+  --para2: #ffffff;
+}
+/* dark theme */
+.dark {
+  --heading:  #eab308; /* lightYellow */
+  --background1: #020617; /* slate-950 */
+  --background2: #0f172a; /* slate-900 */
+  --para1: #A9ADB8;; /* dark gray */
+  --para2: #ffffff;
+}
+
+/* light theme */
+.light {
+  --heading:  #ca8a04; /* lightYellow */
+  --background1: #f7f7f7; /* light gray */
+  --background2: #ffffff; /* white */
+  --para1: black; /* dark gray for text */
+  --para2: black;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title { @apply relative inline-block text-4xl text-heading mb-16 before:absolute before:bottom-[-10px] before:left-[-18px] before:h-[2px] before:w-[120%] before:bg-para1 after:absolute after:left-[25%] after:bottom-[-10px] after:h-[2px] after:w-[50%] after:bg-heading;}
+.btn { @apply bg-heading text-lg inline-block text-black px-14 py-2 rounded-3xl mt-6 hover:shadow-custom w-56; }
+.container { width: 100%; padding-right: 12px; /* Equivalent to 0.75rem */ padding-left: 12px; /* Equivalent to 0.75rem */ margin-right: auto; margin-left: auto; }
+.timeline-circle{@apply relative after:absolute after:left-[-73px] after:top-0 after:w-4 after:h-4 after:bg-background2 after:border-[1px] after:border-para1 after:rounded-full hover:after:bg-heading hover:after:border-heading transition}
+.overlay{@apply absolute top-0 left-0 h-full w-full bg-black opacity-0 z-10 scale-105 group-hover:opacity-70 transition-opacity p-7}
+.project-detail{@apply absolute top-0 left-0 w-[98%] h-[98%]  items-center justify-center flex-col text-lg text-white border hidden group-hover:flex z-20 transition}
+/* Slick Style */
+.slick-dots li button:before {color: var(--heading)!important;}
+.slick-slide{padding-left: 20px;}
+.slick-prev:before, .slick-next:before{color: var(--heading)!important;}
+@media (min-width: 576px) { .container { max-width: 540px; } } 
+@media (min-width: 768px) { .container { max-width: 720px; } }
+@media (min-width: 992px) { .container { max-width: 960px; }  }
+@media (min-width: 1200px) { .container { max-width: 1140px; } }
+@media (min-width: 1400px) { .container { max-width: 1320px; } }
+
+@media screen and (max-width:992px){ .services-before::before, .about-before::before{display: none;} }
+@media screen and (max-width:1172px){ .services-before::before{top: -2%;} }
+@media screen and (max-width:400px){ .name{font-size: 6rem;} }
+
+/* https://www.blackbox.ai/share/1405d9e3-9e10-4af8-8dca-b3b4fb41397a */
