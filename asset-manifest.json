@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Amna-software-engineer/porftfolio/static/css/main.8fdfb5a6.css",
-    "main.js": "/Amna-software-engineer/porftfolio/static/js/main.47792dbb.js",
-    "static/media/slick.svg": "/Amna-software-engineer/porftfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Amna-software-engineer/porftfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Amna-software-engineer/porftfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Amna-software-engineer/porftfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Amna-software-engineer/porftfolio/index.html",
-    "main.8fdfb5a6.css.map": "/Amna-software-engineer/porftfolio/static/css/main.8fdfb5a6.css.map",
-    "main.47792dbb.js.map": "/Amna-software-engineer/porftfolio/static/js/main.47792dbb.js.map"
+    "main.css": "/porftfolio/static/css/main.e799a478.css",
+    "main.js": "/porftfolio/static/js/main.47792dbb.js",
+    "static/media/slick.svg": "/porftfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/porftfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/porftfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/porftfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/porftfolio/index.html",
+    "main.e799a478.css.map": "/porftfolio/static/css/main.e799a478.css.map",
+    "main.47792dbb.js.map": "/porftfolio/static/js/main.47792dbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fdfb5a6.css",
+    "static/css/main.e799a478.css",
     "static/js/main.47792dbb.js"
   ]
 }
