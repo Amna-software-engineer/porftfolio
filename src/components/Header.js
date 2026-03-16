@@ -1,4 +1,4 @@
-import React, { useContext, useState,useRef, useEffect } from 'react';
+import { useContext, useState,useRef } from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMenu , IoClose} from "react-icons/io5";
 import { MdLightMode, MdNightlight } from 'react-icons/md';
@@ -9,7 +9,7 @@ const Header = () => {
 const DarkBtnRef = useRef(null);
 const LightBtnRef = useRef(null);
  const {theme,themeToggle} = useContext(ThemContext);
- const {homeRef,aboutRef,servicesRef,skillsRef,resumeRef,projectsRef,contactRef}=useContext(ScrollContext)
+ const {homeRef,aboutRef,skillsRef,resumeRef,projectsRef,contactRef}=useContext(ScrollContext)
 //  console.log(theme);
 //  toggling menu
     const [toggle,setToggle]=useState(true);
@@ -54,19 +54,18 @@ const LightBtnRef = useRef(null);
     <nav className={` bg-background1 flex items-start flex-col w-full mx-auto px-3 pb-6 gap-5 absolute top-[75px] left-0 z-[9999] lg:flex-row lg:flex lg:justify-end lg:relative lg:top-1 lg:gap-5 lg:pb-0 ${
       toggle ? 'hidden' : 'flex'
       }`} id="navbar" >
-        <a href=""></a>
-        <a class="text-para1 transition hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase"  onClick={()=>(handleScroll(homeRef))}>Home</a>
+        <a class="text-para1 transition hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase" href='#'  onClick={()=>(handleScroll(homeRef))}>Home</a>
         {
             links.map((item,i)=>{
                 return(
-                    <a className="text-para1 transition hover:text-heading lg:text-[14px] lg:text-para2 lg:uppercase"  key={i} onClick={()=>(handleScroll(item.ref))}>
+                    <a className="text-para1 transition hover:text-heading lg:text-[14px] lg:text-para2 lg:uppercase" href={item.href}  key={i} onClick={()=>(handleScroll(item.ref))}>
                     {item.link} 
                     </a>
                 )
             })
         }
          <a class="text-para1 transition hidden  hover:text-heading lg:text-lg lg:text-para2 lg:uppercase  lg:block" href="#" >|</a>
-          <a className="lg:flex lg:justify-between lg:items-center text-para1 transition hidden hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase whitespace-nowrap" href="tel:03342225989" target="_blank"> <FaPhoneAlt className='text-para2 me-1'/>  +92 334 2225989</a> 
+          <a className="lg:flex lg:justify-between lg:items-center text-para1 transition hidden hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase whitespace-nowrap" href="tel:03342225989" target="_blank" rel="noreferrer"> <FaPhoneAlt className='text-para2 me-1'/>  +92 334 2225989</a> 
     </nav>
     </div> 
     {/* menu and them icons */}

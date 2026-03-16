@@ -21,7 +21,7 @@ const Social = (props) => {
             title: "Watsapp"
         },
         {
-            href:"https://www.linkedin.com/in/amna-haq-82bb79256/",
+            href:"www.linkedin.com/in/amna-haq-full-stack-developer",
             icon: <FaLinkedin />,
             title: "Linkedin"
         }
@@ -32,7 +32,7 @@ const Social = (props) => {
         {social.map((item,i)=>{
             return(
                 <div className="socail-items bg-background1 h-14 w-14 rounded-full border border-para1 flex justify-start ps-3 items-center cursor-pointer overflow-hidden transition-[width] duration-200 hover:w-44 hover:pt-0" key={i}>
-                <a href={item.href}  target="_blank" className="text-para2 flex justify-between items-center" >
+                <a href={item.href}  target="_blank" rel="noreferrer" className="text-para2 flex justify-between items-center" >
                     {item.icon}
                     <span className="socail-text ps-3 text-2xl">{item.title}</span> 
                  </a>

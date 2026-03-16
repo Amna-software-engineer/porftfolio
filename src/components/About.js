@@ -35,7 +35,7 @@ const About = forwardRef((props,ref) => {
   <p class="text-[18px] lg:text-xl leading-relaxed">I'm a Front-End Developer with a passion for visual design and digital branding. My focus is on creating websites and applications that not only look great but also attract and inspire users. I aim to design experiences that spark interest, encourage interaction, and leave a positive impression.</p>
   <table class="text-[18px] lg:text-xl mt-4">
         <tbody class="lg:leading-loose">
-            <tr> <td>Birthday </td> <td>: May 07, 1990</td> </tr>
+            <tr> <td>Birthday </td> <td>: June 04, 2004</td> </tr>
             <tr> <td>Phone </td> <td>: +92 334 2225989</td> </tr>
             <tr> <td>Email </td> <td>: amnahaqamna83@gmail.com</td> </tr>
             <tr> <td>From </td> <td>: Bannu, Khyber Pakhtunkhwa, Pakistan </td> </tr>
@@ -43,7 +43,7 @@ const About = forwardRef((props,ref) => {
             <tr> <td>Freelance </td> <td>: Available</td> </tr>
         </tbody>
         </table>
-        <Btn href="assets/Amna_Haq_july_2025.pdf" content="Download CV"/>
+        <Btn href="Amna_Haq_CV_July_2025.pdf" content="Download CV"/>
 </div>
 </div>
    </section>
