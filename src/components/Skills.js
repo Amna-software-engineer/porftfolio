@@ -1,21 +1,24 @@
 import React, { forwardRef } from 'react';
 import OverlayText from './OverlayText';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaGithub } from 'react-icons/fa';
-import { SiJquery } from "react-icons/si";
+import { SiExpress, SiJquery, SiMongodb } from "react-icons/si";
 import { SiTailwindcss, SiGreensock } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa6';
 
 
 const Skills = forwardRef((props, ref) => {
- const skillList = [
+const skillList = [
   { name: "HTML5", icon: <FaHtml5 /> },
   { name: "CSS3", icon: <FaCss3Alt /> },
-  { name: "Bootstrap", icon: <FaBootstrap /> },
   { name: "JavaScript", icon: <FaJs /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "React JS", icon: <FaReact /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
+  { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
+  { name: "GSAP", icon: <SiGreensock className="text-green-400" /> },
   { name: "Git & GitHub", icon: <FaGithub /> },
-  { name: "jQuery", icon: <SiJquery />},
-  { name: "GSAP", icon: <SiGreensock /> },
 ];
 
   return (
