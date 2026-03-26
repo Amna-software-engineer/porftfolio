@@ -54,7 +54,7 @@ const LightBtnRef = useRef(null);
     <nav className={` bg-background1 flex items-start flex-col w-full mx-auto px-3 pb-6 gap-5 absolute top-[75px] left-0 z-[9999] lg:flex-row lg:flex lg:justify-end lg:relative lg:top-1 lg:gap-5 lg:pb-0 ${
       toggle ? 'hidden' : 'flex'
       }`} id="navbar" >
-        <a class="text-para1 transition hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase" href='#'  onClick={()=>(handleScroll(homeRef))}>Home</a>
+        <a class="text-para1 transition hover:text-heading lg:text-[14px] lg:text-heading lg:uppercase" href='/'  onClick={()=>(handleScroll(homeRef))}>Home</a>
         {
             links.map((item,i)=>{
                 return(
