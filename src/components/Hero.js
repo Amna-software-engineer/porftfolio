@@ -29,7 +29,7 @@ return (
      <ParticlesBg/>
      </div>
      <div className="container flex gap-10 justify-between lg:relative pr-0">
-         <div className="flex flex-col mt-10 lg:mt-36 select-none mb-20 lg:mb-0"> <span className="text-heading text-3xl -mb-10">Hello, I'm </span><br/> <span className="text-para2 text-[9rem] font-bold leading-[1.2] name">Amna <br/> Haq</span> <br/> <span className="text-gray-600 text-3xl">Frontend Developer</span> <br/> <Btn href="mailto:amnahaqamna83@gmail.com" content="Hire Me"/>   </div>
+         <div className="flex flex-col mt-10 lg:mt-36 select-none mb-20 lg:mb-0"> <span className="text-heading text-3xl -mb-10">Hello, I'm </span><br/> <span className="text-para2 text-[9rem] font-bold leading-[1.2] name">Amna <br/> Haq</span> <br/> <span className="text-gray-600 text-3xl">MERN/Full Stack Developer</span> <br/> <Btn href="mailto:amnahaqamna83@gmail.com" content="Hire Me"/>   </div>
          <div className="hero-part2 hidden lg:block"  ref={heroPart2Ref}>
             src=
              <img src={"assets/images/Design.png"} alt='imgNotFound'   className="min-w-[110%] z-20 relative lg:-right-60 " />
