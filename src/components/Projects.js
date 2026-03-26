@@ -34,7 +34,7 @@ const Projects = forwardRef((props, ref) => {
     }
   ]
   // project details
-  const [selectedProjectTitle, setselectedProjectTitle] = useState(null);
+  // const [selectedProjectTitle, setselectedProjectTitle] = useState(null);
   const [selectedProject, setSelectedProject] = useState(null);
 
   let ProjectDetail = [
@@ -66,8 +66,8 @@ const Projects = forwardRef((props, ref) => {
   ]
   // open new project
   const openProject = (project) => {
-    setselectedProjectTitle(project.title);
-    setSelectedProject(project)
+    // setselectedProjectTitle(project.title);
+    setSelectedProject(project);
   }
   const handleClose = () => {
     setSelectedProject(null);

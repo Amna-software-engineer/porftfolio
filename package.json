@@ -1,5 +1,5 @@
 {
-    "homepage": "https://Amna-software-engineer.github.io/porftfolio",
+  "homepage": "https://Amna-software-engineer.github.io/porftfolio",
   "name": "amna",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/Amna-software-engineer/porftfolio.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

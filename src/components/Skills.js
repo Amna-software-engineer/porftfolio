@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import OverlayText from './OverlayText';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaGithub } from 'react-icons/fa';
-import { SiExpress, SiJquery, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
 import { SiTailwindcss, SiGreensock } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa6';
 
