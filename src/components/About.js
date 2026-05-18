@@ -52,7 +52,7 @@ const About = forwardRef((props, ref) => {
                 <tr> <td>Freelance </td> <td>: Available</td> </tr>
               </tbody>
             </table>
-            <Btn href="assets/Amna_Haq.pdf" content="Download CV" />
+            <Btn href="assets/Amna_Haq 2026.pdf" content="Download CV" />
           </div>
         </div>
       </section>
