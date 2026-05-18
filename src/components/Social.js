@@ -21,7 +21,7 @@ const Social = (props) => {
             title: "Watsapp"
         },
         {
-            href:"www.linkedin.com/in/amna-haq-full-stack-developer",
+            href:"https://www.linkedin.com/in/amna-haq-full-stack-developer",
             icon: <FaLinkedin />,
             title: "Linkedin"
         }
